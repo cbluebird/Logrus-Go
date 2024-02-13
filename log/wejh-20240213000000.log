@@ -1,0 +1,18 @@
+{
+  "address": "127.0.0.1:57188",
+  "code": 200505,
+  "level": "warning",
+  "method": "GET",
+  "msg": "网络连接超时，请稍后重试!",
+  "path": "/hello1",
+  "time": "2024-02-13 00:31:39"
+}
+{
+  "address": "127.0.0.1:57188",
+  "level": "error",
+  "method": "GET",
+  "msg": "an error can be stacktrace",
+  "path": "/hello",
+  "stacktrace": "\nmain.main\n\t/Users/crk/cs/go/logrus/main.go:20\nruntime.main\n\t/opt/homebrew/Cellar/go/1.21.0/libexec/src/runtime/proc.go:267\nruntime.goexit\n\t/opt/homebrew/Cellar/go/1.21.0/libexec/src/runtime/asm_arm64.s:1197",
+  "time": "2024-02-13 00:31:49"
+}
